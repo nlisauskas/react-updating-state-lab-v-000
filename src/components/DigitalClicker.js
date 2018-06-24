@@ -2,5 +2,10 @@
 import React from 'react';
 
 export default class DigitalClicker extends react.Component {
-  
+    constructor() {
+      super();
+      this.state = {
+        timesClicked: 0
+      }
+    }
 }
